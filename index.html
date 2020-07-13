@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+    <title>Country Information</title>
+</head>
+<body>
+    
+    <div class="search-wrapper">
+        <div class="search-container">
+            <div class="input-section">
+                <p>Enter a country name</p>
+                <input type="text" id="name-search">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+
+        <div class="search-result-div">
+            <div class="flag-div">
+                <img src="#" alt="" id='flag'>
+            </div>
+
+            <div class="title-div">
+                <h1 id='country-name'></h1>
+            </div>
+
+            <div class="info-div">
+                <div class="capital-div">
+                    <h3 id='capital-title'></h3>
+                    <p id='capital'></p>
+                </div>
+            </div>
+
+            <div class="info-div">
+                <div class="region-div">
+                    <h3 id='region-title'></h3>
+                    <p id='region'></p>
+                </div>
+            </div>
+
+            <div class="info-div">
+                <div class="population-div">
+                    <h3 id='population-title'></h3>
+                    <p id='population'></p>
+                </div>
+            </div>
+
+            <div class="info-div">
+                <div class="language-div">
+                    <h3 id='languages-title'></h3>
+
+                    <ul id='languages-list'>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="map-div">
+            <div id="map">
+                
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
