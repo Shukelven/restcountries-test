@@ -1,2 +1,2 @@
 # RestCountriesAPI
-Enter a country, get information and a location on a interactive map
+Get information from a country from the RestCountries API and get a location in a map from LeafletJS
